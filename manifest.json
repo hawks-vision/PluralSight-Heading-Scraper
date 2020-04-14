@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "pluralsight_heading_gropher",
+  "version": "1.0",
+
+  "description": "grophes the heading from the pluralsight pages",
+
+  "icons": {
+    "64": "k.png"
+  },
+ "permissions":["activeTab","tabs","storage"],
+ "browser_action": {
+    "default_icon": "k.png",
+    "default_title": "PHG",
+    "default_popup": "/popup.html"
+    }
+  
+
+}
